@@ -9,5 +9,13 @@
             "src": "/(.*)",
             "dest": "tco/wsgi.py"
         }
+        
+    ],
+    "ignore": [
+        "venv/",
+        "__pycache__/",
+        "*.pyc",
+        "*.pyo",
+        "*.log"
     ]
 }
